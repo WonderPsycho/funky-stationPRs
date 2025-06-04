@@ -238,3 +238,15 @@
     - id: ImmovableRodWeh
       prob: 0.0075
       orGroup: rodProto
+
+- type: entity
+  parent: GameRuleMeteorSwarm
+  id: GameRuleMeteorSwarmHELL
+  components:
+  - type: StationEvent
+    weight: 1
+  - type: MeteorSwarm
+    meteors:
+      MeteorSmall: 168
+      MeteorMedium: 150
+      MeteorLarge: 67
